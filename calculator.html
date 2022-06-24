@@ -1,0 +1,42 @@
+<html>
+    <body>
+       
+        <script src="calc.js"></script>
+        <link rel="stylesheet" href="calci.css">
+        <div class="formstyle">
+            <h2>-CALCULATOR-</h2>
+        <form = nForm> <center>
+            <table>
+            <input type="text" id="demo" class="inputt" name="ans">
+            <button type="button" class ="clear" onclick="clearScr()"> AC</button>
+            <button type="button" class="clear" onclick="rem()">clr</button>
+            <tr>
+            <td><button type="button" value ="1" class="number" onclick="display('1')">1</button></td>
+            <td><button type="button" value ="2" class="number" onclick="display('2')">2</button></td>
+            <td><button type="button" value ="3" class="number" onclick="display('3')">3</button></td>
+            <td><button type="button" value ="+" class="operator" onclick="display('+')">+</button></td>
+            </tr>
+            <tr>
+             <td><button type="button" value ="4" class="number" onclick="display('4')">4</button></td>
+             <td><button type="button" value ="5" class="number" onclick="display('5')">5</button></td>
+             <td><button type="button" value ="6" class="number" onclick="display('6')">6</button></td>
+             <td><button type="button" value ="-" class="operator" onclick="display('-')">-</button></td>
+            </tr>
+            <tr>
+            <td><button type="button" value ="7" class="number" onclick="display('7')">7</button></td>
+            <td><button type="button" value ="8" class="number" onclick="display('8')">8</button></td>
+            <td><button type="button" value ="9" class="number" onclick="display('9')">9</button></td>
+            <td><button type="button" value ="*" class="operator" onclick="display('*')">*</button></td>
+            </tr>
+            <tr>
+           <td><button type="button" value ="/" class="operator" onclick="display('/')">/</button></td>
+           <td><button type="button" value ="0" class="operator" onclick="display('0')">0</button></td>
+           <td><button type="button" value ="." class="operator" onclick="display('.')">.</button></td>
+           <td><button type="button" value ="=" class="equal-sign" onclick="solve()">=</button></td>
+        </tr>     
+    </table>
+    </center>
+        </form>
+        </div>    
+    </body>
+</html>

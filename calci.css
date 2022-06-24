@@ -1,0 +1,65 @@
+.number
+{
+    height: 50px;
+    width : 50px;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #333;
+}
+
+.number:hover 
+{
+    background-color: #eaeaea;
+}
+.operator 
+{
+    color: #fff;
+    background-color: #cbc4db;
+    height: 50px;
+    width: 50px;
+    border-radius : 7px;
+    border-color: rgb(177, 175, 175);
+}
+.clear 
+{
+    background-color: #f0595f;
+    border-color: #b0353a;
+    color: #fff;
+    width: 30px;
+    height: 30px;  
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.clear:hover
+ {
+    background-color: #f17377;
+}
+.equal-sign
+ {
+    background-color: #c6e094;
+    border-color: rgb(177, 175, 175);
+    color: #fff;
+    height: 50px;
+    width: 50px; 
+    border-radius: 7px;
+}
+
+.equal-sign:hover 
+{
+    background-color: #15a003;
+}
+.inputt
+{
+    height:30px;
+    width:150px;
+}
+.formstyle
+{
+    text-align: center ;
+    padding : 170px;
+  
+}
